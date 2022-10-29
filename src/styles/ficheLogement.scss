@@ -25,6 +25,38 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.tags__ficheLogement {
+  display: flex;
+}
+.tags {
+  margin: 0px 20px 0px 0px;
+  background-color: #ff6060;
+  border-radius: 10px;
+  padding: 0px 20px 0px 20px;
+  line-height: 25px;
+  color: white;
+  font-weight: 400;
+}
+
+.description__user {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+.id__contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nom__contact {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70px;
+}
+.notation {
+  display: flex;
+  height: 20px;
+}
 
 .avatar__contact {
   display: block;
@@ -47,4 +79,9 @@ body {
   font-size: 18px;
   font-weight: 500;
   color: #ff6060;
+}
+
+#text {
+  background-color: #ff6060;
+  color: white;
 }
