@@ -1,0 +1,50 @@
+body {
+  background-color: beige;
+  padding: 40px;
+}
+
+.ficheLogement {
+  display: flex;
+  height: 100%;
+}
+
+.titreFiche {
+  display: flex;
+  color: #ff6060;
+  font-weight: 500;
+  font-size: 36px;
+
+  text-align: left;
+}
+.section__description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.informations {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar__contact {
+  display: block;
+  width: 64px;
+  height: 64px;
+  background-color: grey;
+  border-radius: 50%;
+}
+
+.description__loc {
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+}
+
+.section__description {
+  margin: 40px 0px 40px 0px;
+}
+.localisation {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff6060;
+}

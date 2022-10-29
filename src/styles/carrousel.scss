@@ -1,0 +1,47 @@
+.conteneurCarrousel {
+  display: flex;
+  margin-top: 40px;
+
+  justify-content: center;
+  border-radius: 20px;
+  height: 550px;
+  width: 100%;
+  z-index: 0;
+  background-color: rgba(191, 250, 230, 0.37);
+}
+
+.conteneur_fleches {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 550px;
+  justify-content: space-between;
+}
+
+.imageCarrousel__visible {
+  position: relative;
+  border-radius: 20px;
+  object-fit: cover;
+  width: 100%;
+  height: 550px;
+  z-index: -1;
+}
+
+.imageCarrousel__cachee {
+  display: none;
+}
+
+.fa-chevron-right {
+  color: white;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.fa-chevron-left {
+  color: white;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}

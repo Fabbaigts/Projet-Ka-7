@@ -1,0 +1,19 @@
+.dropdown {
+  border: none;
+  display: flex;
+  width: 45%;
+  height: 52px;
+  border-radius: 10px;
+  background-color: rgb(255, 96, 96);
+}
+
+.titre__dropdown {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+ 
+  height: 52px;
+  color: white;
+  font-weight: 300;
+
+}
