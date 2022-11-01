@@ -1,20 +1,114 @@
-.dropdown {
+.greyContainerr {
+  top: -20px;
+}
+
+.conteneur__dropdown {
+  width: 100%;
+  margin: 20px 40px 20px 40px;
+}
+.dropdownsmall {
   border: none;
   display: flex;
+  flex-direction: column;
   width: 45%;
   height: 52px;
   border-radius: 10px;
   background-color: rgb(255, 96, 96);
   padding-left: 20px;
 }
+.dropupsmall {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: auto;
+  border-radius: 10px;
+  background-color: rgba(226, 226, 226, 0.872);
+  padding-left: 20px;
+}
+.dropdownlarge {
+  border: none;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+  background-color: rgb(255, 96, 96);
+  padding-left: 20px;
+}
+.dropuplarge {
+  border: none;
+  display: flex;
+  flex-direction: column;
+
+  height: auto;
+  border-radius: 10px;
+  background-color: rgb(226, 226, 226);
+  padding-left: 20px;
+}
+
+.barre__dropdown {
+  border: none;
+  display: flex;
+  height: 52px;
+  border-radius: 10px;
+  background-color: rgb(255, 96, 96);
+
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -20px;
+  padding-left: 20px;
+}
+
+.contenu__dropdown {
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  margin-left: -20px;
+  padding: 20px 0px 20px 20px;
+  background-color: rgb(226, 226, 226);
+  color: rgb(255, 96, 96);
+  width: 100%;
+  border-radius: 10px;
+}
+li.equipment {
+  list-style: none;
+  text-decoration: none;
+}
 
 .titre__dropdown {
   display: flex;
   justify-content: start;
   align-items: center;
- 
+
   height: 52px;
   color: white;
-  font-weight:400;
+  font-weight: 400;
+}
 
+.chevron {
+  height: 50%;
+  width: 5%;
+  padding-right: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.contenu__dropDown__visible {
+  display: flex;
+  flex-direction: column;
+  margin-left: -20px;
+  display: flex;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background-color: rgb(162, 162, 162);
+  padding-left: 20px;
+}
+
+.contenu__dropDown__invisible {
+  display: flex;
+  flex-direction: column;
+}
+.equipements {
+  display: flex;
+  flex-direction: column;
 }

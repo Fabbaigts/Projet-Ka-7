@@ -1,11 +1,22 @@
-import React from 'react';
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+import Navigation from '../components/Navigation'
 
 const Page404 = () => {
-    return (
-        <div>
-            
-        </div>
-    );
-};
+  return (
+    <>
+      <section className="header">
+        <Navigation />
+      </section>
+      <section className="body__404">
+        <h1 className="Page404">404</h1>
+        <h3 className="oups">Oups! La page que vous demandez n'existe pas.</h3>
+        <NavLink to="/home">
+          <p className="retour__accueil">Retourner sur la page d’accueil</p>
+        </NavLink>
+      </section>
+    </>
+  )
+}
 
-export default Page404;
+export default Page404

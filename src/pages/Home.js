@@ -2,7 +2,7 @@ import React from 'react'
 import Card from '../components/Card'
 import hebergements from '../datas/hebergements.json'
 import Navigation from '../components/Navigation'
-
+import Footer from '../components/Footer'
 const Home = () => {
   return (
     <>
@@ -24,16 +24,7 @@ const Home = () => {
           )
         })}
       </section>
-      <footer>
-        <h3 className="titre_footer">
-          <img
-            src="./logo2.svg"
-            alt="logo principal Kaza"
-            className="logoFooter"
-          />
-        </h3>
-        <p className="copyright">© 2020 Kaza, All rights reserved</p>
-      </footer>
+      <Footer/>
     </>
   )
 }

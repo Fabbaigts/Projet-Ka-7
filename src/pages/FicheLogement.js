@@ -5,16 +5,19 @@ import { useParams } from 'react-router-dom'
 import hebergements from '../datas/hebergements.json'
 import DropdownDesktop from '../components/DropdownDesktop'
 import Tags from '../components/Tags'
+import Etoiles from '../components/Etoiles'
+import Footer from '../components/Footer.js'
 
 //import { NavLink } from 'react-router-dom'
 
 const FicheLogement = () => {
   const { id } = useParams()
   const loc = hebergements.find((logement) => logement.id === id)
-
-
+  const equip = loc.equipments
   console.log(loc)
   console.log({ id })
+  console.log(equip)
+
 
   return (
     <>
@@ -42,17 +45,34 @@ const FicheLogement = () => {
                 alt="avatar de profil"
               />
             </div>
-            <p className="notation">{loc.rating}</p>
+            <div className="stars">
+              <Etoiles scaleValue={loc.rating} />
+            </div>
           </article>
         </section>
         <section className="informations">
-          <button className="dropdown" type="button">
-            <DropdownDesktop title="Description" />
-          </button>
-          <button className="dropdown" type="button">
-            <DropdownDesktop title="Équipements" />
-          </button>
+          <DropdownDesktop
+            title="Description"
+            taille="petit"
+            className="description__dropdown"
+            contenu={loc.description}
+          />
+
+          <DropdownDesktop
+            title="Équipements"
+            className="equipements"
+            taille="petit"
+            contenu={equip.map((e) => {
+              return (
+                <li key={e} className="equipment">
+                  {e}
+                </li>
+              )
+            })}
+          />
         </section>
+       
+        <Footer />
       </>
     </>
   )
