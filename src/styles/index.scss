@@ -1,11 +1,17 @@
+
+
 @import './reset.scss';
-@import './apropos.scss';
 @import './settings.scss';
-@import './navigation.scss';
-@import './home_sect1.scss';
-@import './home_gallery_cards.scss';
-@import './404.scss';
-@import './footer.scss';
+
+
+@import './home.scss';
 @import './ficheLogement.scss';
+@import './apropos.scss';
+@import './404.scss';
+
+
+@import './navigation.scss';
 @import './carrousel.scss';
 @import './dropdown.scss';
+@import './footer.scss';
+@import './_mediaqueries.scss';

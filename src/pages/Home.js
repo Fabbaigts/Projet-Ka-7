@@ -3,6 +3,11 @@ import Card from '../components/Card'
 import hebergements from '../datas/hebergements.json'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
+import ImageEnTete from '../components/ImageEnTete'
+
+
+
+
 const Home = () => {
   return (
     <>
@@ -10,7 +15,7 @@ const Home = () => {
         <Navigation />
       </section>
       <section className="home_section1">
-        <h2>Chez vous, partout et ailleurs</h2>
+        <ImageEnTete h1="Chez vous, partout et ailleurs" title="HomeBanniere"/>
       </section>
       <section className="gallery_ground">
         {hebergements.map((logement) => {
@@ -24,7 +29,7 @@ const Home = () => {
           )
         })}
       </section>
-      <Footer/>
+      <Footer />
     </>
   )
 }

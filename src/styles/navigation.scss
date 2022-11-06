@@ -4,14 +4,18 @@
   
 }
 
-.logoClic {
-  size: 500px;
+a.logoClic {
+  size: 100%;
 }
+
 
 .logo {
-  width: 90%;
+  width: 100%;
 }
-
+.navigation{display:flex;
+  align-items: center ;
+  margin-left: 10px;
+}
 ul {
   display: flex;
   padding: 0px;

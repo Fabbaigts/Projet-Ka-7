@@ -9,7 +9,7 @@ const Navigation = () => {
   return (
     <>
       {/* 👇️ react router link */}
-      <NavLink onClick={clicLogo} to="/" className="logoClic">
+      <NavLink onClick={clicLogo} to="/home" className="logoClic">
         <img src="./logo1.svg" alt="logo principal Kaza" className="logo" />
       </NavLink>
 

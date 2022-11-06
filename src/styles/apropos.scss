@@ -1,12 +1,32 @@
 //background: url(kalen-emsley-Bkci_8qcdvQ-unsplash.jpg);
+.aPropos_section1 {
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(114, 114, 114, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../../public/kalen-emsley-Bkci_8qcdvQ-unsplash.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 15em;
+  margin: 40px 0px 20px 0px;
+}
 
+.aproposBanniere {
+  display: none;
+}
 
-.informations__apropos{display: flex;
-flex-direction: column;
-display:flex;
-    height:1000px;
-    align-items: center;
-    justify-content: start;}
+.informations__apropos {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: start;
+}
 
-.description__dropdown{display:block;
+.description__dropdown {
+  display: block;
 }

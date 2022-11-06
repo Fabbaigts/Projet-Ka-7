@@ -9,20 +9,21 @@ const Etoiles = (props) => {
 
   return (
     <>
-      {tableauEtoiles.map((valeurencoursdutableau) =>
-        votes < valeurencoursdutableau ? (
+      {tableauEtoiles.map((indexdutableau) =>
+        indexdutableau <= votes ? (
           <img
-            key={'etoilegrise' + valeurencoursdutableau}
-            src="./etoilegrise.png"
-            alt="etoilesgrises"
-            className="etoilesgrises"
-          />
-        ) : (
-          <img
-            key={'etoilerose' + valeurencoursdutableau}
+            key={'etoilerose' + indexdutableau}
             src="./etoilerose.png"
             alt="etoilesroses"
             className="etoilesroses"
+          />
+ 
+        ) : (
+          <img
+            key={'etoilegrise' + indexdutableau}
+            src="./etoilegrise.png"
+            alt="etoilesgrises"
+            className="etoilesgrises"
           />
         )
       )}
