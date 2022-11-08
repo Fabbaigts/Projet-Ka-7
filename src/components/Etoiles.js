@@ -13,7 +13,7 @@ const Etoiles = (props) => {
         indexdutableau <= votes ? (
           <img
             key={'etoilerose' + indexdutableau}
-            src="./etoilerose.png"
+            src="../etoilerose.png"
             alt="etoilesroses"
             className="etoilesroses"
           />
@@ -21,7 +21,7 @@ const Etoiles = (props) => {
         ) : (
           <img
             key={'etoilegrise' + indexdutableau}
-            src="./etoilegrise.png"
+            src="../etoilegrise.png"
             alt="etoilesgrises"
             className="etoilesgrises"
           />

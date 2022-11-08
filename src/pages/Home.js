@@ -23,7 +23,7 @@ const Home = () => {
             <Card
               key={logement.id}
               title={logement.title}
-              Navlink={'/logement_' + logement.id}
+              Navlink={'/logement/' + logement.id}
               imgurl={logement.cover}
             />
           )

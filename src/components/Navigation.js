@@ -10,7 +10,7 @@ const Navigation = () => {
     <>
       {/* 👇️ react router link */}
       <NavLink onClick={clicLogo} to="/home" className="logoClic">
-        <img src="./logo1.svg" alt="logo principal Kaza" className="logo" />
+        <img src="../logo1.svg" alt="logo principal Kaza" className="logo" />
       </NavLink>
 
       <div className="navigation">

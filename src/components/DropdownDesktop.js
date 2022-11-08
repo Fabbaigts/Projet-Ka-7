@@ -18,7 +18,7 @@ function DropdownDesktop(props) {
             <h3 className="titre__dropdown">{props.title}</h3>
             <img
               className="chevron"
-              src={etat ? './up.svg' : './down.svg'}
+              src={etat ? '../up.svg' : '../down.svg'}
               alt="chevron down"
             />
           </button>

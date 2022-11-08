@@ -5,7 +5,7 @@ const footer = () => {
       <footer>
         <h3 className="titre_footer">
           <img
-            src="./logo2.svg"
+            src="../logo2.svg"
             alt="logo principal Kaza"
             className="logoFooter"
           />
