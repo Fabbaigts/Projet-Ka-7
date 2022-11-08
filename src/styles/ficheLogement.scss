@@ -20,12 +20,15 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
+.description__loc {
+  width: 77%;
+}
 .informations {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
+
 .tags__ficheLogement {
   display: flex;
 }
@@ -42,6 +45,7 @@ body {
 .description__user {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 150px;
 }
 .id__contact {
@@ -50,7 +54,7 @@ body {
   align-items: center;
 }
 .nom__contact {
-  color:#ff6060;
+  color: #ff6060;
   display: flex;
   flex-wrap: wrap;
   width: 70px;

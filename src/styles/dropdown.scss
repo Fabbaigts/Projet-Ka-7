@@ -16,7 +16,7 @@
 .barre__dropdown {
   border: none;
   display: flex;
-
+  font-size: 18px;
   width: 100%;
   border-radius: 10px;
   background-color: rgb(255, 96, 96);
@@ -39,7 +39,7 @@
 ul.contenu__dropdown {
   line-height: 25px;
   display: flex;
-
+  font-size: 18px;
   flex-direction: column;
   padding: 20px 20px 20px 20px;
   background-color: rgb(226, 226, 226);
