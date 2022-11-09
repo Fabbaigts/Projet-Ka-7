@@ -2,6 +2,7 @@
   "name": "p7_kaza",
   "version": "0.1.0",
   "private": false,
+   "homepage": "https://fabbaigts.github.io/Projet-Ka-7/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
