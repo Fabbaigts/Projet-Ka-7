@@ -4,10 +4,18 @@
   }
 }
 
+
+
+
+
+
+// ----------------- POUR ECRANS DE SMARTPHONES ---------------------
 @media only screen and (max-width: 480px) and (min-width: 321px) {
   body {
     padding: 10px;
   }
+
+  // ----------------- Barre de  Navigation  ---------------------
   .logo {
     width: 70%;
   }
@@ -19,8 +27,19 @@
     width: 45%;
     justify-content: space-between;
   }
+  ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
   .li__nav {
     font-size: 16px;
+  }
+
+// ----------------- image d'entête  ---------------------
+
+  .home_section1 {
+    height: 7em;
   }
   .HomeBanniere {
     font-size: 23px;
@@ -28,15 +47,9 @@
   .conteneur__imageEntete {
     margin-left: 10px;
   }
-  .home_section1 {
-    height: 7em;
-  }
 
-  ul {
-    display: flex;
-    width: 100%;
-    align-items: center;
-  }
+  // ----------------- Section des CARDS  ---------------------
+  
   .gallery_ground {
     display: flex;
     justify-content: space-evenly;
@@ -76,7 +89,7 @@
   .conteneur_description_card {
     display: flex;
     width: 85%;
-    height: 25%;
+    height: 20%;
   }
 
   .descrition_card {
@@ -140,8 +153,7 @@
   }
   .numero__image {
     top: 400px;
-    left:47%
-  
+    left: 47%;
   }
 
   .imageCarrousel__cachee {
@@ -165,6 +177,9 @@
   .section__description {
     flex-direction: column;
     margin: 10px 0px 10px 0px;
+  }
+  .description__loc {
+    width: 100%;
   }
   .description__user {
     flex-direction: row-reverse;
@@ -232,12 +247,16 @@
     font-weight: 400;
   }
 }
-//Tablettes
+
+
+
+
+// ----------------- POUR ECRANS DE TABLETTES ---------------------
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .logo {
     width: 80%;
   }
-
+// ----------------- Barre de  Navigation  ---------------------
   .navigation {
     display: flex;
     width: 50%;
@@ -326,11 +345,14 @@
   .numero__image {
     top: 500px;
     left: 48%;
-    
   }
 
   .imageCarrousel__cachee {
     display: none;
+  }
+
+  .description__loc {
+    width: 100%;
   }
   .tags__ficheLogement {
     flex-wrap: wrap;
@@ -421,6 +443,10 @@
     font-size: 24px;
   }
 }
-
+// ----------------- POUR PETITS ECRANS PC ---------------------
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+// ----------------- POUR grands ECRANS PC ---------------------
+@media only screen and (min-width: 1024px) {
 }
