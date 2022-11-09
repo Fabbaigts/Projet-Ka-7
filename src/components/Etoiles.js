@@ -3,7 +3,7 @@ import React from 'react'
 const tableauEtoiles = [1, 2, 3, 4, 5]
 console.log(tableauEtoiles)
 
-const Etoiles = (props) => {
+export default function Etoiles(props) {
   let votes = props.scaleValue
   console.log(votes)
 
@@ -17,7 +17,6 @@ const Etoiles = (props) => {
             alt="etoilesroses"
             className="etoilesroses"
           />
- 
         ) : (
           <img
             key={'etoilegrise' + indexdutableau}
@@ -31,4 +30,4 @@ const Etoiles = (props) => {
   )
 }
 
-export default Etoiles
+

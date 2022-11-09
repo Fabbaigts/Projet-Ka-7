@@ -5,7 +5,7 @@ import FlechesCarrousel from './FlechesCarrousel'
 export default function Carrousel(props) {
   const [current, setCurrent] = useState(0)
   const tableauDesImages = props.carrouselPictures
-
+  
   const nextPicture = () => {
     setCurrent(current === tableauDesImages.length - 1 ? 0 : current + 1)
   }

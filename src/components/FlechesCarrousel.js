@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FlechesCarrousel = (props) => {
+export default function FlechesCarrousel (props) {
   return (
     <div className="conteneur_fleches">
       <button className="flecheGauche" value="Back" onClick={props.previous}>
@@ -13,4 +13,4 @@ const FlechesCarrousel = (props) => {
   )
 }
 
-export default FlechesCarrousel
+

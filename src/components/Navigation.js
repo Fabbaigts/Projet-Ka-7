@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-const Navigation = () => {
+export default function Navigation() {
   const clicLogo = (event) => {
     console.log('Lien cliqué')
   }
@@ -33,4 +33,3 @@ const Navigation = () => {
   )
 }
 
-export default Navigation

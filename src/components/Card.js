@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 
 
-function Card(props) {
+export default function Card(props) {
 
   return (
     <article className="card">
@@ -19,6 +19,6 @@ function Card(props) {
   )
 }
 
-export default Card
+
 
 

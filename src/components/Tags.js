@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Tags = (props) => {
+export default function Tags(props) {
   return (
     <>
       {props.tags.map((tag) => {
@@ -17,5 +17,3 @@ const Tags = (props) => {
     </>
   )
 }
-
-export default Tags

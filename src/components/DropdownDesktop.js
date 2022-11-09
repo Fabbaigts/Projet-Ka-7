@@ -1,12 +1,11 @@
 import React from 'react'
 import { useState } from 'react'
 
-function DropdownDesktop(props) {
+export default function DropdownDesktop(props) {
   // ici les props sont héritées de la page Fichelogement ou Apropos
   // et sont : title="Description"; taille = 'petit' ou 'grand'; className = 'description__dropdown' et contenu(mappé précédemment)
   // + initialisation d'une variable "d'état" de la barre dropdown par défaut sur "false" (fermée)
   const [etat, setEtat] = useState(false)
-
   return (
     <>
       <div
@@ -37,5 +36,3 @@ function DropdownDesktop(props) {
     </>
   )
 }
-
-export default DropdownDesktop

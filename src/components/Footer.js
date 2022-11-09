@@ -1,6 +1,6 @@
 import React from 'react';
 
-const footer = () => {
+export default function Footer () {
     return (
       <footer>
         <h3 className="titre_footer">
@@ -15,4 +15,3 @@ const footer = () => {
     )
 };
 
-export default footer;
