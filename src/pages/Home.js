@@ -1,12 +1,9 @@
 import React from 'react'
-import Card from '../components/Card'
+import Navigation from '../components/header/Navigation'
+import ImageEnTete from '../components/header/ImageEnTete'
 import hebergements from '../datas/hebergements.json'
-import Navigation from '../components/Navigation'
-import Footer from '../components/Footer'
-import ImageEnTete from '../components/ImageEnTete'
-
-
-
+import Card from '../components/body/Card'
+import Footer from '../components/footer/Footer'
 
 const Home = () => {
   return (
@@ -14,8 +11,8 @@ const Home = () => {
       <section className="header">
         <Navigation />
       </section>
-      <section className="home_section1">
-        <ImageEnTete h1="Chez vous, partout et ailleurs" title="HomeBanniere"/>
+      <section className="banner">
+        <ImageEnTete h1="Chez vous, partout et ailleurs" title="_slogan" />
       </section>
       <section className="gallery_ground">
         {hebergements.map((logement) => {

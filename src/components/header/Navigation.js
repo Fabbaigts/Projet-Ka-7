@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import logoHeader from '../../assets/logo1.svg'
 
 export default function Navigation() {
   const clicLogo = (event) => {
@@ -8,15 +9,15 @@ export default function Navigation() {
 
   return (
     <>
-      {/* 👇️ react router link */}
       <NavLink onClick={clicLogo} to="/" className="logoClic">
-        <img src="../logo1.svg" alt="logo principal Kaza" className="logo" />
+        <img src={logoHeader} alt="logo principal Kaza" className="logo" />
       </NavLink>
 
       <div className="navigation">
         <ul>
           <NavLink
             to="/"
+            end
             className={(nav) => (nav.isActive ? 'nav-active' : '')}
           >
             <li className="li__nav">Accueil</li>
@@ -32,4 +33,3 @@ export default function Navigation() {
     </>
   )
 }
-

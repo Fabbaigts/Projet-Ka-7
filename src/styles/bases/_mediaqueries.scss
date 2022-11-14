@@ -1,0 +1,244 @@
+// -------- en cas de resolution trop petite -----------------
+
+@media only screen and (min-width: 50px) and (max-width: 320px){
+ body {display: flex;
+   padding : 0px;
+   align-items: center;
+   justify-content: center;
+   height:500px;
+   }
+  #root{display: none;
+  }
+
+.not-supported{display: flex;
+    object-fit: cover;
+    width: 120px;
+    height: 200px;
+    align-content: center;
+   background-image: 
+    url('../../assets/notsupported.png')  ;
+    background-repeat: no-repeat;
+  }
+}
+
+// ------------ POUR ECRANS DE SMARTPHONES ----------------
+@media only screen and (max-width: 768px) and (min-width: 321px) {
+  body {
+    padding: 10px;
+  }
+
+  // ---- Barre de  Navigation  ----
+   .logo { width: 70%;
+  }
+  a.logoClic {
+    width: 50%;
+  }
+  .navigation {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+  }
+  ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .li__nav {
+    font-size: 16px;
+  }
+
+  // ---- image d'entête  ----
+
+  .banner {
+    height: 7em;
+    border-radius: 10px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  .conteneur__imageEntete {
+    margin-left: 10px;
+  }
+
+  // ---- Section des CARDS -----
+
+  .gallery_ground {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 20px 0px 20px 0px;
+    padding: 0px;
+  }
+
+  .card {
+    width: 100%;
+    height: 255px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .descrition_card {
+    font-weight: 400;
+    font-size: 14px;
+    
+  }
+// ---- Footer ----
+  .copyright {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .logoFooter {
+    width: 100px;
+  }
+
+
+  //---- Carrousel ----
+  .conteneurCarrousel {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    border-radius: 20px;
+    height: 340px;
+    width: 100%;
+    z-index: 0;
+  }.conteneur_fleches {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 350px;
+    justify-content: space-between;
+  }
+
+  .imageCarrousel__visible {
+    position: relative;
+    border-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+    height: 340px;
+    z-index: -1;
+  }
+  .numero__image {
+    top: 400px;
+    left: 47%;
+  }
+
+ 
+
+  .fa-chevron-right {
+    width: 30px;
+    height: 30px;
+  }
+
+  .fa-chevron-left {
+    width: 30px;
+    height: 30px;
+  }
+
+   //---- Description logement  ----
+     .titreFiche {
+    display: flex;
+    color: #ff6060;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: left;
+  }
+  .localisation {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ff6060;
+  }
+    div.tags {
+    margin: 10px;
+  }
+  .tags__ficheLogement {
+    flex-wrap: wrap;
+  }
+ .tags {
+    margin: 0px 20px 0px 0px;
+    background-color: #ff6060;
+    border-radius: 10px;
+    padding: 0px 20px 0px 20px;
+    line-height: 25px;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  
+
+  .section__description {
+    flex-direction: column;
+    margin: 10px 0px 10px 0px;
+  }
+  .description__loc {
+    width: 100%;
+  }
+  .description__user {
+    flex-direction: row-reverse;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .avatar__contact {
+    width: 40px;
+    height: 40px;
+  }
+
+
+  
+  .etoilesroses {
+    width: 20px;
+  }
+  .etoilesgrises {
+    width: 20px;
+  }
+  // ---- Section des dropdowns ----
+  .informations {
+    flex-direction: column;
+  }
+
+  .barre__dropdown {
+    height: 40px;
+    width: 100%;
+  }
+  .dropdownsmall {
+    width: 100%;
+  }
+  .contenu__dropdown {
+    align-items: start;
+  }
+// ---- Page 404 ----
+  h1.Page404 {
+    margin: 100px 0px 10px 0px;
+    font-size: 140px;
+    font-weight: bolder;
+  }
+  h3.oups {
+    margin: 10px 10px 200px 10px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+  }
+}
+
+
+// ----------------- POUR PETITS ECRANS PC ---------------------
+@media only screen and (min-width: 769px) and (max-width: 1040px) {
+.card {
+    background: linear-gradient(rgb(255, 96, 96), rgba(133, 43, 43, 0.952));
+    display: flex;
+    width: 100%;
+    height: 340px;
+    flex-direction: column;
+    margin: 10px;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #dedede;
+}
+
+
+}

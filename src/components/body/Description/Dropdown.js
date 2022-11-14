@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
+import up from'../../../assets/up.svg'
+import down from'../../../assets/down.svg'
 
 export default function DropdownDesktop(props) {
   // ici les props sont héritées de la page Fichelogement ou Apropos
@@ -21,7 +23,11 @@ export default function DropdownDesktop(props) {
             {/*  Selon l'état "true ou false" de la barre, attribution d'une image différente de chevron (up ou down)*/}
             <img
               className="chevron"
-              src={etat ? '../up.svg' : '../down.svg'}
+              src={
+                etat
+                  ? up
+                  : down
+              }
               alt="chevron down"
             />
           </button>

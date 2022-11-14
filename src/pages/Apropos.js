@@ -1,8 +1,8 @@
 import React from 'react'
-import Navigation from '../components/Navigation'
-import ImageEnTete from '../components/ImageEnTete'
-import DropdownDesktop from '../components/DropdownDesktop'
-import Footer from '../components/Footer.js'
+import Navigation from '../components/header/Navigation'
+import ImageEnTete from '../components/header/ImageEnTete'
+import DropdownDesktop from '../components/body/Description/Dropdown'
+import Footer from '../components/footer/Footer.js'
 
 const Apropos = () => {
   return (

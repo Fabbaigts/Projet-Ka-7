@@ -1,4 +1,6 @@
 import React from 'react'
+import etoilerose from '../../../assets/etoilerose.png'
+import etoilegrise from '../../../assets/etoilegrise.png'
 
 const tableauEtoiles = [1, 2, 3, 4, 5]
 console.log(tableauEtoiles)
@@ -13,14 +15,14 @@ export default function Etoiles(props) {
         indexdutableau <= votes ? (
           <img
             key={'etoilerose' + indexdutableau}
-            src="../etoilerose.png"
+            src={etoilerose}
             alt="etoilesroses"
             className="etoilesroses"
           />
         ) : (
           <img
             key={'etoilegrise' + indexdutableau}
-            src="../etoilegrise.png"
+            src={etoilegrise}
             alt="etoilesgrises"
             className="etoilesgrises"
           />
@@ -29,5 +31,3 @@ export default function Etoiles(props) {
     </>
   )
 }
-
-
