@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import hebergements from '../datas/hebergements.json'
 
 import Navigation from '../components/header/Navigation'
-import Carrousel from '../components/header/Carrousel/Carrousel'
+import Carrousel from '../components/header/Carrousel/Slideshow'
 import DropdownDesktop from '../components/body/Description/Dropdown'
 import Tags from '../components/body/Description/Tags'
 import Etoiles from '../components/body/Description/Etoiles'

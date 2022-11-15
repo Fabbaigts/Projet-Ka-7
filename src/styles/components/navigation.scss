@@ -28,11 +28,11 @@ ul {
   display: inline-block;
   justify-content: center;
   align-items: center;
-  color: rgb(255, 96, 96);
+  color: $card-background;
   transition: 0.2s;
   cursor: pointer;
   &:hover {
-    color: #942e2e;
+    color: $card-gradiant;
   }
 }
 
@@ -43,7 +43,7 @@ ul {
     content: '';
     height: 1px;
     width: 0;
-    background: #ff6060;
+    background: $card-background;
     position: absolute;
     border-radius: 10px;
     bottom: 0px;
@@ -51,11 +51,7 @@ ul {
     transform: translateX(-50%);
     -webkit-animation: anim 0.3s ease forwards;
     animation: anim 0.3s ease forwards;
-    @-webkit-keyframes anim {
-      to {
-        widht: 100%;
-      }
-    }
+   
     @keyframes anim {
       to {
         width: 100%;

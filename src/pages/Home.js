@@ -1,6 +1,6 @@
 import React from 'react'
 import Navigation from '../components/header/Navigation'
-import ImageEnTete from '../components/header/ImageEnTete'
+import ImageEnTete from '../components/header/Banner'
 import hebergements from '../datas/hebergements.json'
 import Card from '../components/body/Card'
 import Footer from '../components/footer/Footer'

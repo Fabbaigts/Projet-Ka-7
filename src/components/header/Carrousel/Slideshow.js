@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import FlechesCarrousel from './FlechesCarrousel'
+import FlechesCarrousel from './FlechesNav'
 
 export default function Carrousel(props) {
   const [current, setCurrent] = useState(0)
@@ -22,25 +22,26 @@ export default function Carrousel(props) {
 
   return (
     <>
-      {/* Affichage des fleches du carrousel si le nombre d'images est > 1 */}
+      {/* Affichage des FLECHES si le nombre d'images est > 1 */}
       {tableauDesImages.length !== 1 && (
         <FlechesCarrousel previous={previousPicture} next={nextPicture} />
       )}
-      {/* Affichage du compteur d'image si le nombre d'images est > 1 */}
+      {/* Affichage du COMPTEUR si le nombre d'images est > 1 */}
       {nombreDimages !== 1 && (
         <div className="numero__image">
           {imageAffichee}/{nombreDimages}
         </div>
       )}
-      {/* Affichage de l'image si son index correspond au setcurrent*/}
+      {/* Affichage de L si son index correspond au setcurrent*/}
       {tableauDesImages.map((pic, indexOfpic) => {
         console.log(indexOfpic)
         return (
           <>
             {/* indexOf : retourne l'index de chaque element d'un tableau*/}
             {indexOfpic === current && (
+              
               <img
-                className="imageCarrousel__visible"
+                className="imageCarrousel"
                 key={numeroAleatoire}
                 src={pic}
                 alt={'image de carrousel n°' + imageAffichee}

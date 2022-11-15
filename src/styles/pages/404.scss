@@ -6,17 +6,18 @@
   margin-top: 100px;
 }
 
-.Page404 {
+h1.Page404 {
   font-size: 288px;
-  font-weight: 600;
-  color: rgb(255, 96, 96);
+  font-weight: 700;
+  color: $text404;
   margin-bottom: 50px;
 }
 
-.oups {
+h3.oups {
+  text-align: center;
   font-size: 36px;
   font-weight: 500;
-  color: rgb(255, 96, 96);
+  color: $text404;
   margin-bottom: 50px;
 }
 
@@ -27,5 +28,5 @@
 .retour__accueil {
   text-decoration: underline;
   margin-top: 100px;
-  color: rgb(255, 96, 96);
+  color: $text404;
 }
