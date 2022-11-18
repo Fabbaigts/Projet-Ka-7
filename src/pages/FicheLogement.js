@@ -1,12 +1,12 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import hebergements from '../datas/hebergements.json'
-
+import { Fragment } from 'react'
 import Navigation from '../components/header/Navigation'
 import Carrousel from '../components/header/Carrousel/Slideshow'
-import DropdownDesktop from '../components/body/Description/Dropdown'
-import Tags from '../components/body/Description/Tags'
-import Etoiles from '../components/body/Description/Etoiles'
+import DropdownDesktop from '../components/body/Logement/Dropdown'
+import Tags from '../components/body/Logement/Tags'
+import Etoiles from '../components/body/User/Etoiles'
 import Footer from '../components/footer/Footer.js'
 import Page404 from './Page404'
 
@@ -28,7 +28,7 @@ const FicheLogement = () => {
     console.log(loc.id)
 
     return (
-      <>
+      <Fragment className="fiche-logement">
         <section className="header">
           <Navigation />
         </section>
@@ -81,7 +81,7 @@ const FicheLogement = () => {
         </section>
 
         <Footer />
-      </>
+      </Fragment>
     )
   }
 }

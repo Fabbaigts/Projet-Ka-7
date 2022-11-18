@@ -4,10 +4,20 @@
   font-family: 'Montserrat';
 }
 // *{outline : 1px solid red}
+html {
+  display: flex;
+  justify-content: center;
+
+}
+#root {
+  max-width: 1440px;
+  width: 100%;
+}
 
 body {
   display: flex;
-  flex-direction: column;
+  width: 1440px;
+  justify-content: center;
   background-color: $body-background;
   padding: 20px 100px 0px 100px;
 }

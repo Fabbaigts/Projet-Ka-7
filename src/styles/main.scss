@@ -1,7 +1,7 @@
-@import './bases/reset.scss';
-@import './bases/colors.scss';
-@import './bases/mixin.scss';
-@import './bases/settings.scss';
+@import './base/reset.scss';
+@import './utils/variables.scss';
+@import './utils/mixin.scss';
+@import './base/settings.scss';
 
 
 @import './pages/home.scss';
@@ -11,7 +11,7 @@
 
 @import './components/cards.scss';
 @import './components/navigation.scss';
-@import './components/carrousel.scss';
+@import './components/slideshow.scss';
 @import './components/dropdown.scss';
 @import './layout/footer.scss';
-@import './bases/mediaqueries';
+@import './base/mediaqueries';

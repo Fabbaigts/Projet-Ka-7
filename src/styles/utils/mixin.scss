@@ -1,0 +1,17 @@
+@mixin car-shadow-over {box-shadow: 2px 2px 15px 2px $shadow-over}
+@mixin car-shadow-action { box-shadow: 2px 2px 15px 2px $card-background}
+@mixin border-radius-gallery-ground { border-radius: 25px;}
+@mixin border-radius-banner { border-radius: 25px;}
+@mixin border-radius-phone { border-radius: 10px;}
+
+@mixin flex-center { display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+

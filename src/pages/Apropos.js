@@ -1,7 +1,7 @@
 import React from 'react'
 import Navigation from '../components/header/Navigation'
-import ImageEnTete from '../components/header/Banner'
-import DropdownDesktop from '../components/body/Description/Dropdown'
+import Banner from '../components/header/Banner'
+import DropdownDesktop from '../components/body/Logement/Dropdown'
 import Footer from '../components/footer/Footer.js'
 
 const Apropos = () => {
@@ -11,7 +11,7 @@ const Apropos = () => {
         <Navigation />
       </section>
       <section className="aPropos_section1">
-        <ImageEnTete h1="A propos" title="aproposBanniere" />
+        <Banner h1="A propos" title="aproposBanniere" />
       </section>
 
       <section className="informations__apropos">

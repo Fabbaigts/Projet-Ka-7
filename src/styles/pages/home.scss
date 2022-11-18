@@ -2,10 +2,8 @@
   background-size: cover;
   background-image: linear-gradient($gradiant-image-banner, $gradiant-image-banner),
     url('../../assets/homeBackgroundSec1.jpg');
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 25px;
+   @include flex-center;
+ @include border-radius-banner;
   height: 223px;
   margin: 20px 0px 20px 0px;
 }

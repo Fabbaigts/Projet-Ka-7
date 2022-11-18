@@ -1,7 +1,7 @@
 .conteneurCarrousel {
   display: flex;
   margin-top: 40px;
-
+position: relative;
   justify-content: center;
   border-radius: 20px;
   height: 550px;
@@ -16,8 +16,7 @@
       left: 100px;
     right: 100px;
 box-sizing: content-box;
- 
-  height: 550px;
+top: 255px;
   justify-content: space-between;
 }
 
@@ -32,9 +31,9 @@ box-sizing: content-box;
 }
 .numero__image {
   position: absolute;
-  top: 650px;
+  top: 500px;
   left: 49%;
-  font-size: 24px;
+  font-size: 18px;
   color: $compteur-carrousel;
   font-weight: 500;
 }
