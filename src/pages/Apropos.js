@@ -17,14 +17,13 @@ const Apropos = () => {
       <section className="informations__apropos">
         {DonneesApropos.map((e) => {
           return (
-            <div className="conteneur__dropdown">
-              <DropdownDesktop
-                title={e.id}
-                taille="grand"
-                className="description__dropdown"
-                contenu={e.contenu}
-              />
-            </div>
+            <DropdownDesktop
+              key={e.id}
+              title={e.id}
+              taille="grand"
+              className="description__dropdown"
+              contenu={e.contenu}
+            />
           )
         })}
       </section>
