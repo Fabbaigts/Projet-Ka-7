@@ -12,7 +12,7 @@ export default function Card(props) {
           <img className="imgCard" src={props.imgurl} alt={props.title}></img>
         </div>
         <div className="conteneur_description_card">
-          <p className='descrition_card'>{props.title}</p>
+          <h2 className='descrition_card'>{props.title}</h2>
         </div>
       </NavLink>
     </article>

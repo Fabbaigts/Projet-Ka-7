@@ -3,12 +3,9 @@ import etoilerose from '../../../assets/etoilerose.png'
 import etoilegrise from '../../../assets/etoilegrise.png'
 
 const tableauEtoiles = [1, 2, 3, 4, 5]
-console.log(tableauEtoiles)
 
 export default function Etoiles(props) {
   let votes = props.scaleValue
-  console.log(votes)
-
   return (
     <>
       {tableauEtoiles.map((indexdutableau) =>

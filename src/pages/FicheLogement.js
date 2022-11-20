@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import hebergements from '../datas/hebergements.json'
 import { Fragment } from 'react'
 import Navigation from '../components/header/Navigation'
-import Carrousel from '../components/header/Carrousel/Slideshow'
+import Carrousel from '../components/header/Slideshow'
 import DropdownDesktop from '../components/body/Logement/Dropdown'
 import Tags from '../components/body/Logement/Tags'
 import Etoiles from '../components/body/User/Etoiles'
@@ -16,19 +16,11 @@ const FicheLogement = () => {
   const { id } = useParams()
   const loc = hebergements.find((logement) => logement.id === id)
 
-  console.log({ id })
-  console.log(loc)
-
   if (loc === undefined) {
     return <Page404 />
   } else {
-    const equip = loc.equipments
-
-    console.log(equip)
-    console.log(loc.id)
-
     return (
-      <Fragment className="fiche-logement">
+      <>
         <section className="header">
           <Navigation />
         </section>
@@ -39,7 +31,9 @@ const FicheLogement = () => {
         <section className="section__description">
           <article className="description__loc">
             <h1 className="titreFiche">{loc.title}</h1>
-            <p className="localisation">{loc.location}</p>
+
+            <address className="localisation">{loc.location}</address>
+
             <div className="tags__ficheLogement">
               <Tags tags={loc.tags} classname="tags" />
             </div>
@@ -70,7 +64,7 @@ const FicheLogement = () => {
             title="Équipements"
             className="equipements"
             taille="petit"
-            contenu={equip.map((e) => {
+            contenu={loc.equipments.map((e) => {
               return (
                 <li key={e} className="equipment">
                   {e}
@@ -81,7 +75,7 @@ const FicheLogement = () => {
         </section>
 
         <Footer />
-      </Fragment>
+      </>
     )
   }
 }

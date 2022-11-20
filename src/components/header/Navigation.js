@@ -3,13 +3,10 @@ import { NavLink } from 'react-router-dom'
 import logoHeader from '../../assets/logo1.svg'
 
 export default function Navigation() {
-  const clicLogo = (event) => {
-    console.log('Lien cliqué')
-  }
-
   return (
     <>
-      <NavLink onClick={clicLogo} to="/" className="logoClic">
+      <NavLink to="/" className="logoClic">
+        {/* Permet de rendre le logo cliquable pour un retour à l'accueil '/' */}
         <img src={logoHeader} alt="logo principal Kaza" className="logo" />
       </NavLink>
 

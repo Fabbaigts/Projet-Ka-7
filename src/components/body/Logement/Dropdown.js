@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
-import up from'../../../assets/up.svg'
-import down from'../../../assets/down.svg'
+import up from '../../../assets/up.svg'
+import down from '../../../assets/down.svg'
 
 export default function DropdownDesktop(props) {
   // ici les props sont héritées de la page Fichelogement ou Apropos
@@ -19,15 +19,11 @@ export default function DropdownDesktop(props) {
           {/*  Evenement au clic de la barre dropdown (sous forme de boutton)
            -> Modification du usestate en l'inverse de l'état actuel  */}
           <button className="barre__dropdown" onClick={() => setEtat(!etat)}>
-            <h3 className="titre__dropdown">{props.title}</h3>
+            <h2 className="titre__dropdown">{props.title}</h2>
             {/*  Selon l'état "true ou false" de la barre, attribution d'une image différente de chevron (up ou down)*/}
             <img
               className="chevron"
-              src={
-                etat
-                  ? up
-                  : down
-              }
+              src={etat ? up : down}
               alt="chevron down"
             />
           </button>
