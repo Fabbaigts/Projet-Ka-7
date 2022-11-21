@@ -24,13 +24,13 @@ export default function Carrousel(props) {
       {tableauDesImages.length !== 1 && (
         <div className="conteneur_fleches">
           <button
-            className="flecheGauche"
+            className="_flecheGauche"
             value="Back"
             onClick={previousPicture}
           >
             <i className="fa-sharp fa-solid fa-chevron-left"></i>
           </button>
-          <button className="flecheDroite" value="Next" onClick={nextPicture}>
+          <button className="_flecheDroite" value="Next" onClick={nextPicture}>
             <i className="fa-sharp fa-solid fa-chevron-right"></i>
           </button>
         </div>

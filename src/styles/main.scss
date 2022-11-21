@@ -1,17 +1,18 @@
-@import './base/reset.scss';
-@import './utils/variables.scss';
-@import './utils/mixin.scss';
-@import './base/settings.scss';
+@import './base/_reset.scss';
+@import './base/_typographie.scss';
+@import './utils/_variables.scss';
+@import './utils/_mixin.scss';
+@import './base/_settings.scss';
 
+@import './pages/_home.scss';
+@import './pages/_ficheLogement.scss';
+@import './pages/_apropos.scss';
+@import './pages/_404.scss';
 
-@import './pages/home.scss';
-@import './pages/ficheLogement.scss';
-@import './pages/apropos.scss';
-@import './pages/404.scss';
-
-@import './components/cards.scss';
-@import './components/navigation.scss';
-@import './components/slideshow.scss';
-@import './components/dropdown.scss';
-@import './layout/footer.scss';
-@import './base/mediaqueries';
+@import './components/_cards.scss';
+@import './components/_buttons.scss';
+@import './components/_navigation.scss';
+@import './components/_slideshow.scss';
+@import './components/_dropdown.scss';
+@import './layout/_footer.scss';
+@import './base/_mediaqueries';

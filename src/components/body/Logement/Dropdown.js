@@ -18,7 +18,7 @@ export default function DropdownDesktop(props) {
         <div>
           {/*  Evenement au clic de la barre dropdown (sous forme de boutton)
            -> Modification du usestate en l'inverse de l'état actuel  */}
-          <button className="barre__dropdown" onClick={() => setEtat(!etat)}>
+          <button className="_barre-dropdown" onClick={() => setEtat(!etat)}>
             <h2 className="titre__dropdown">{props.title}</h2>
             {/*  Selon l'état "true ou false" de la barre, attribution d'une image différente de chevron (up ou down)*/}
             <img
