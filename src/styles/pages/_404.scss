@@ -1,7 +1,6 @@
 .body__404 {
- @include flex-center;
+  @include flex-center;
   flex-direction: column;
- 
   margin-top: 100px;
 }
 
@@ -12,7 +11,7 @@ h1.Page404 {
   margin-bottom: 50px;
 }
 
-h3.oups {
+.oups {
   text-align: center;
   font-size: 36px;
   font-weight: 500;

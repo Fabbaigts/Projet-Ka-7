@@ -4,7 +4,7 @@ import hebergements from '../datas/hebergements.json'
 import { Fragment } from 'react'
 import Navigation from '../components/header/Navigation'
 import Carrousel from '../components/header/Slideshow'
-import DropdownDesktop from '../components/body/Logement/Dropdown'
+import Dropdown from '../components/body/Logement/Dropdown'
 import Tags from '../components/body/Logement/Tags'
 import Etoiles from '../components/body/User/Etoiles'
 import Footer from '../components/footer/Footer.js'
@@ -28,7 +28,7 @@ const FicheLogement = () => {
         <section className="conteneurCarrousel">
           <Carrousel title={loc.title} carrouselPictures={loc.pictures} />
         </section>
-        <section className="section__description">
+        <section className="section_apercu">
           <article className="description__loc">
             <h1 className="titreFiche">{loc.title}</h1>
 
@@ -52,17 +52,17 @@ const FicheLogement = () => {
             </div>
           </article>
         </section>
-        <section className="informations">
-          <DropdownDesktop
+        <section className="section_detail">
+          <Dropdown
             title="Description"
             taille="petit"
-            className="description__dropdown"
+            className="dropdown-logement"
             contenu={loc.description}
           />
 
-          <DropdownDesktop
+          <Dropdown
             title="Équipements"
-            className="equipements"
+            className="dropdown-logement"
             taille="petit"
             contenu={loc.equipments.map((e) => {
               return (

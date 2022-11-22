@@ -1,9 +1,12 @@
 .banner {
   background-size: cover;
-  background-image: linear-gradient($gradiant-image-banner, $gradiant-image-banner),
+  background-image: linear-gradient(
+      $gradiant-image-banner,
+      $gradiant-image-banner
+    ),
     url('../../assets/homeBackgroundSec1.jpg');
-   @include flex-center;
- @include border-radius-banner;
+  @include flex-center;
+  @include border-radius-banner;
   height: 223px;
   margin: 20px 0px 20px 0px;
 }
@@ -11,8 +14,9 @@
 h1 {
   font-size: 48px;
   font-weight: 400;
-  color:$h1-color;
+  color: $h1-color;
 }
+
 .fond1 {
   opacity: 0.1;
 }

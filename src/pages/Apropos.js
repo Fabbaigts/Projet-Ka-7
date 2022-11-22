@@ -1,7 +1,7 @@
 import React from 'react'
 import Navigation from '../components/header/Navigation'
 import Banner from '../components/header/Banner'
-import DropdownDesktop from '../components/body/Logement/Dropdown'
+import Dropdown from '../components/body/Logement/Dropdown'
 import Footer from '../components/footer/Footer.js'
 import DonneesApropos from '../datas/apropos.json'
 
@@ -17,11 +17,11 @@ const Apropos = () => {
       <section className="informations__apropos">
         {DonneesApropos.map((e) => {
           return (
-            <DropdownDesktop
+            <Dropdown
               key={e.id}
               title={e.id}
               taille="grand"
-              className="description__dropdown"
+              className="dropdown-Apropos"
               contenu={e.contenu}
             />
           )

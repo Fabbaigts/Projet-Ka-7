@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin : 10px 0px 50px 0px;
+  margin: 10px 0px 50px 0px;
   width: 100%;
 }
 
@@ -9,20 +9,23 @@ a.logoClic {
   size: 100%;
 }
 
-
 .logo {
   width: 100%;
 }
-.navigation{display:flex;
-  align-items: center ;
+
+.navigation {
+  display: flex;
+  align-items: center;
   margin-left: 10px;
 }
+
 ul {
   display: flex;
   padding: 0px;
   width: 300px;
   justify-content: space-between;
 }
+
 .li__nav {
   list-style-type: none;
   display: inline-block;
@@ -51,7 +54,7 @@ ul {
     transform: translateX(-50%);
     -webkit-animation: anim 0.3s ease forwards;
     animation: anim 0.3s ease forwards;
-   
+
     @keyframes anim {
       to {
         width: 100%;

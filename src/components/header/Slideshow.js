@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-
 import { Fragment } from 'react'
 
 export default function Carrousel(props) {

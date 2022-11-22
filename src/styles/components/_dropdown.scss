@@ -1,41 +1,45 @@
-.informations {
-  display: flex;
-
+button._barre-dropdown {
+  height: 47px;
   width: 100%;
 }
-.conteneur__dropdown {
+
+.dropdown-logement {
+  border: none;
   display: flex;
+  font-size: 18px;
   width: 100%;
+  border-radius: 10px;
+  background-color: $barre-dropdown;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.dropdown-Apropos {
+  border: none;
+  display: flex;
+  font-size: 18px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: $barre-dropdown;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
 }
 
 .dropdownsmall {
   border: none;
   display: flex;
-
   flex-direction: column;
   width: 47%;
-  border-radius: 10px;
   margin-bottom: 40px;
-}
-
-
-
-.greyContainer {
-  display: flex;
-  position: relative;
-
-  width: 100%;
-  z-index: -1;
-  top: -15px;
 }
 
 .dropdownlarge {
   border: none;
   display: flex;
-
   flex-direction: column;
   width: 100%;
-  border-radius: 10px;
   margin-bottom: 30px;
 }
 
@@ -43,7 +47,6 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-
   height: 52px;
   color: $text-color;
   font-weight: 500;
@@ -55,6 +58,15 @@
   padding-right: 10px;
   color: $fleches-carrousel;
 }
+
+.greyContainer {
+  display: flex;
+  position: relative;
+  width: 100%;
+  z-index: -1;
+  top: -15px;
+}
+
 ul.contenu__dropdown {
   line-height: 25px;
   display: flex;
@@ -68,12 +80,8 @@ ul.contenu__dropdown {
   border-radius: 10px;
   line-height: 30px;
 }
+
 li.equipment {
   list-style: none;
   text-decoration: none;
 }
-.equipements {
-  display: flex;
-  flex-direction: column;
-}
-

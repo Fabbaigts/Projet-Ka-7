@@ -7,6 +7,7 @@
     justify-content: center;
     height: 500px;
   }
+  
   #root {
     display: none;
   }
@@ -28,10 +29,13 @@
   body {
     padding: 20px;
   }
+
   .header {
     margin: 10px 0px 20px 0px;
   }
+
   // ------------ Barre de  Navigation  -------------
+
   .logo {
     width: 5em;
   }
@@ -51,9 +55,11 @@
     height: 111px;
     border-radius: 10px;
   }
+
   h1 {
     font-size: 26px;
   }
+
   .conteneur__imageEntete {
     margin-left: 10px;
   }
@@ -77,7 +83,9 @@
     font-weight: 400;
     font-size: 14px;
   }
+
   // --------------- Footer -----------------
+
   .copyright {
     margin-top: 20px;
     font-size: 12px;
@@ -87,6 +95,7 @@
   }
 
   //--------------- Carrousel ------------------
+
   .conteneurCarrousel {
     margin-top: 20px;
     height: 255px;
@@ -117,14 +126,17 @@
   }
 
   //--------------- Description logement  -----------------
+
   .titreFiche {
     font-size: 18px;
     line-height: 25px;
   }
+
   .localisation {
     font-size: 14px;
   }
-  .section__description {
+
+  .section_apercu {
     flex-direction: column;
     margin: 10px 0px 10px 0px;
   }
@@ -132,6 +144,7 @@
   .tags__ficheLogement {
     flex-wrap: wrap;
   }
+
   .tags {
     height: 18px;
     border-radius: 5px;
@@ -146,6 +159,7 @@
   }
 
   //--------------- Description Utilisateur ----------------
+
   .description__user {
     flex-direction: row-reverse;
     padding-top: 20px;
@@ -170,46 +184,67 @@
   .etoilesgrises {
     width: 15px;
   }
+
   // -------------- Section des dropdowns -------------
-  .informations {
-    flex-direction: column;
+
+  .informations__apropos {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
-  ._barre-dropdown {
-    height: 30px;
-    width: 100%;
-    border-radius: 5px;
-  }
-  .titre__dropdown {
-    font-size: 13px;
-  }
   .dropdownsmall {
     width: 100%;
+    margin-bottom: 20px;
   }
+
   .dropdownlarge {
     margin-bottom: 20px;
   }
+
+  .dropdown-Apropos {
+    height: 30px;
+  }
+
+  .dropdown-logement {
+    height: 30px;
+    border-radius: 5px;
+  }
+
+  .titre__dropdown {
+    font-size: 13px;
+  }
+
+  .chevron {
+    width: 15px;
+  }
+
   .contenu__dropdown {
     align-items: start;
   }
+
+  .section_detail {
+    flex-direction: column;
+  }
+
   ul.contenu__dropdown {
     font-size: 12px;
     line-height: 20px;
   }
-  .chevron {
-    width: 15px;
-  }
+
   // --------------- Page 404 ---------------
+
   h1.Page404 {
     margin: 100px 0px 10px 0px;
     font-size: 96px;
     font-weight: bolder;
   }
-  h3.oups {
+
+  .oups {
     width: 80%;
     margin: 10px 10px 100px 10px;
     font-size: 18px;
   }
+
   .aPropos_section1 {
     height: 223px;
     object-fit: cover;
