@@ -12,7 +12,7 @@ const Home = () => {
         <Navigation />
       </section>
       <section className="banner">
-        <Banner h1="Chez vous, partout et ailleurs" title="_slogan" />
+        <Banner h1="Chez vous, partout et ailleurs" />
       </section>
       <section className="gallery_ground">
         {hebergements.map((logement) => {
