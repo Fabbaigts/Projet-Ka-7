@@ -1,22 +1,8 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Apropos from './pages/Apropos'
-import FicheLogement from './pages/FicheLogement'
-import Page404 from './pages/Page404'
-
-import Home from './pages/Home'
+import Router from './Router'
 
 const App = () => {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/logement/:id" element={<FicheLogement />} />
-        <Route path="/about" element={<Apropos />} />
-        <Route path="/*" element={<Page404 />} />
-      </Routes>
-    </BrowserRouter>
-  )
+  return <Router />
 }
 
 export default App
