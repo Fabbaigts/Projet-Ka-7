@@ -1,3 +1,19 @@
+FRENCH / FRANCAIS
+
+# Pour lancer le projet : 
+
+Installer NPM grace à la commande dans le teminal : npm install.
+
+Lancer l'application : npm start.
+
+La page d'accueil (HOME)  va s'ouvrir dans le navigateur pour une navigation locale ( localhost3000 généralement )
+
+Bonne navigation! 
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
