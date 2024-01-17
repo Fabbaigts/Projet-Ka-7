@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Projet-Ka-7/static/css/main.7da4c8b2.chunk.css",
+    "main.js": "/Projet-Ka-7/static/js/main.32eb2a48.chunk.js",
+    "main.js.map": "/Projet-Ka-7/static/js/main.32eb2a48.chunk.js.map",
+    "runtime-main.js": "/Projet-Ka-7/static/js/runtime-main.cc715691.js",
+    "runtime-main.js.map": "/Projet-Ka-7/static/js/runtime-main.cc715691.js.map",
+    "static/js/2.c6cde3b8.chunk.js": "/Projet-Ka-7/static/js/2.c6cde3b8.chunk.js",
+    "static/js/2.c6cde3b8.chunk.js.map": "/Projet-Ka-7/static/js/2.c6cde3b8.chunk.js.map",
+    "index.html": "/Projet-Ka-7/index.html",
+    "precache-manifest.b63092da060c14f82c82e8215c6b4679.js": "/Projet-Ka-7/precache-manifest.b63092da060c14f82c82e8215c6b4679.js",
+    "service-worker.js": "/Projet-Ka-7/service-worker.js",
+    "static/css/main.7da4c8b2.chunk.css.map": "/Projet-Ka-7/static/css/main.7da4c8b2.chunk.css.map",
+    "static/js/2.c6cde3b8.chunk.js.LICENSE.txt": "/Projet-Ka-7/static/js/2.c6cde3b8.chunk.js.LICENSE.txt",
+    "static/media/down.svg": "/Projet-Ka-7/static/media/down.ed141011.svg",
+    "static/media/main.scss": "/Projet-Ka-7/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.6b63b591.png",
+    "static/media/logo1.svg": "/Projet-Ka-7/static/media/logo1.6b25a115.svg",
+    "static/media/logo2.svg": "/Projet-Ka-7/static/media/logo2.d010b5f0.svg",
+    "static/media/up.svg": "/Projet-Ka-7/static/media/up.d22807e3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc715691.js",
+    "static/js/2.c6cde3b8.chunk.js",
+    "static/css/main.7da4c8b2.chunk.css",
+    "static/js/main.32eb2a48.chunk.js"
+  ]
+}
