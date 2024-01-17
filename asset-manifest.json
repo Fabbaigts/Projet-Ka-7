@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0928b2f8.chunk.css",
+    "main.js": "/static/js/main.32eb2a48.chunk.js",
+    "main.js.map": "/static/js/main.32eb2a48.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.76d28643.js",
+    "runtime-main.js.map": "/static/js/runtime-main.76d28643.js.map",
+    "static/js/2.c6cde3b8.chunk.js": "/static/js/2.c6cde3b8.chunk.js",
+    "static/js/2.c6cde3b8.chunk.js.map": "/static/js/2.c6cde3b8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4ffe4bab6db2a568d617d479d96e4349.js": "/precache-manifest.4ffe4bab6db2a568d617d479d96e4349.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0928b2f8.chunk.css.map": "/static/css/main.0928b2f8.chunk.css.map",
+    "static/js/2.c6cde3b8.chunk.js.LICENSE.txt": "/static/js/2.c6cde3b8.chunk.js.LICENSE.txt",
+    "static/media/down.svg": "/static/media/down.ed141011.svg",
+    "static/media/main.scss": "/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.6b63b591.png",
+    "static/media/logo1.svg": "/static/media/logo1.6b25a115.svg",
+    "static/media/logo2.svg": "/static/media/logo2.d010b5f0.svg",
+    "static/media/up.svg": "/static/media/up.d22807e3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76d28643.js",
+    "static/js/2.c6cde3b8.chunk.js",
+    "static/css/main.0928b2f8.chunk.css",
+    "static/js/main.32eb2a48.chunk.js"
+  ]
+}
