@@ -12,7 +12,7 @@
     "react-scripts": "^3.0.1",
     "sass": "^1.55.0",
     "web-vitals": "^2.1.4",
-    "homepage": "https://fabbaigts.github.io/Projet-Ka-7/"
+    "homepage": "https://fabbaigts.github.io/Projet-Ka-7/build"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
